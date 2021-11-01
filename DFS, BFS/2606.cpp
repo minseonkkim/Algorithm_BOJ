@@ -6,6 +6,20 @@ int map[101][101];
 int visit[101];
 int com, cnt;
 
+// DFS
+void num_of_virus_com(int node) {
+    visit[node] = 1;
+
+    for (int i = 1; i <= com; i++) {
+        if (!visit[i] && map[node][i] == 1) {
+            cnt++;
+            num_of_virus_com(i);
+        }
+    }
+}
+
+// BFS
+/*
 void num_of_virus_com2(int start) {
     visit[start] = 1;
     queue<int> q;
@@ -23,6 +37,7 @@ void num_of_virus_com2(int start) {
         }
     }
 }
+*/
 
 int main() {
     int n, u, v;

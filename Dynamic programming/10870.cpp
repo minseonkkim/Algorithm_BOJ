@@ -24,4 +24,4 @@ int main() {
 
 	cout << fib(num) << endl;
 	return 0;
-} 
+}

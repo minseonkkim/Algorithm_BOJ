@@ -34,7 +34,6 @@ int main() {
     }
 
     num_of_virus_com2(1);
-
     cout << cnt << endl;
 
     return 0;

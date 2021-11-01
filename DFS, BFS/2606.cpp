@@ -37,7 +37,7 @@ void num_of_virus_com2(int start) {
         }
     }
 }
-*/
+*/ 
 
 int main() {
     int n, u, v;

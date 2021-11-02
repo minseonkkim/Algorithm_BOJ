@@ -15,6 +15,5 @@ int main() {
 	}
 
 	cout << arr[n] << endl;
-
 	return 0;
 }

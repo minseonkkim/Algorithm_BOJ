@@ -3,9 +3,9 @@ using namespace std;
 
 int n, m;
 int arr[9];
-int visited[9];
+bool isused[9];
 
-void dfs(int k) {
+void func(int k) {
 	if (k == m + 1) {
 		for (int i = 1; i <= m; i++)
 			cout << arr[i] << " ";
@@ -13,11 +13,11 @@ void dfs(int k) {
 	}
 	else {
 		for (int i = 1; i <= n; i++) {
-			if (!visited[i]) {
-				visited[i] = true;
+			if (!isused[i]) {
+				isused[i] = true;
 				arr[k] = i;
-				dfs(k + 1);
-				visited[i] = false;
+				func(k + 1);
+				isused[i] = false;
 			}
 		}
 	}
@@ -25,6 +25,6 @@ void dfs(int k) {
 
 int main() {
 	cin >> n >> m;
-	dfs(1);
+	func(1);
 	return 0;
 }

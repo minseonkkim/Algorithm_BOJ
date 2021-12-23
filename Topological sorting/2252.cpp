@@ -32,7 +32,7 @@ void topologySort(){
 	
 	for(int i = 1; i <= n; i++)
 		cout << result[i] << " ";
-}
+} 
 
 int main() {
 	int m, x, y;

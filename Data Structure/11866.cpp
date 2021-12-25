@@ -11,7 +11,7 @@ int main() {
 	
 	queue<int> q;
 	for(int i = 1; i <= n; i++){
-		q.push_back(i);
+		q.push(i);
 	}
 	
 	cout << "<";
@@ -27,7 +27,7 @@ int main() {
 			else{
 				cout << q.front();
 				q.pop();
-				if(!Q.empty()) cout << ", ";
+				if(!q.empty()) cout << ", ";
 			}
 		}
 	}

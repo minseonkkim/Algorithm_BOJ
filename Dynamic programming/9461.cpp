@@ -8,7 +8,7 @@ int main() {
 	int t, n;
 	cin >> t;
 	
-	long long dp[110] = {0, };
+	long long dp[101] = {0, };
 	dp[1] = 1; dp[2] = 1; dp[3] = 1;
 	dp[4] = 2; dp[5] = 2;
 	

@@ -25,7 +25,7 @@ void bfs(int start){
 			}
 		}
 	}
-}
+} 
 
 int main() {
 	int a, b, x, y;

@@ -8,10 +8,6 @@ bool compare(pair<int, int>& a, pair<int, int>& b){
 	return a.second > b.second;
 }
 
-bool compare2(int a, int b){
-	return a > b;
-}
-
 int main() {
 	int n, t, s, time;
 	vector<pair<int, int>> v;

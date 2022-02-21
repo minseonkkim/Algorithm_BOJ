@@ -19,8 +19,8 @@ int main() {
 		sum += num;
 		number[num + 4000]++;
 	}
- 
-	cout << round((float)sum / n) << endl;
+	if(round((float)sum / n) == -0) cout << 0 << endl;
+	else cout << round((float)sum / n) << endl;
  
 	sort(v.begin(), v.end());
 	cout << v[n / 2] << endl;

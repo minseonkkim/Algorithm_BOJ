@@ -33,7 +33,7 @@ int main() {
 		}
 		if(isplugged) continue;
 		
-		// 이미 꽂혀잇지 않고 비어있는 콘센트가 없는 경우
+		// 이미 꽂혀있지 않고 비어있는 콘센트가 없는 경우
 		int last = -1, index = -1;
 		for(int j = 0; j < n; j++){
 			int tmp = 0;

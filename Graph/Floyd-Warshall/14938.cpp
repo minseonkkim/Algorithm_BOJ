@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 #define INF 987654321
 using namespace std;
@@ -7,7 +6,6 @@ using namespace std;
 int n, m, r;
 int item[101];
 int graph[101][101];
-vector<pair<int, int>> edge[100];
 int answer;
 
 int main() {
@@ -27,8 +25,6 @@ int main() {
 	for(int i = 0; i < r; i++){
 		int from, to, dis;
 		cin >> from >> to >> dis;
-		edge[from].push_back({to, dis});
-		edge[to].push_back({from, dis});
 		graph[from][to] = dis;
 		graph[to][from] = dis;
 	}

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue>
 #include <vector>
-#define INF 987654321;
+#define INF 987654321
 using namespace std;
 
 int dist[1001];

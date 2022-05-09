@@ -27,4 +27,4 @@ int main() {
 	cin >> n >> m;
 	func(1, 1);
 	return 0;
-}
+} 

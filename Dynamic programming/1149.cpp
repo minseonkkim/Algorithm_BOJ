@@ -18,4 +18,4 @@ int main() {
  
 	cout << min(house[n][0], min(house[n][1], house[n][2]));
 	return 0;
-}
+} 

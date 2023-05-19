@@ -27,7 +27,7 @@ int update(int node, int start, int end, int idx) {
 
 int main() {
 	ios::sync_with_stdio(false);
-	cin.tie(NULL);
+	cin.tie(NULL); 
 
 	cin >> n;
 	for(int i = 0; i < n; i++){

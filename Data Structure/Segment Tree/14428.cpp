@@ -4,7 +4,7 @@ using namespace std;
 
 int n, m;
 int arr[100001];
-int *tree;
+int *tree; 
 
 int minIndex(int x, int y){
 	if(x == -1) return y;

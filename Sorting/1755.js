@@ -1,7 +1,7 @@
 const fs = require('fs');
 const [m, n] = fs.readFileSync('/dev/stdin', 'utf8').trim().split(' ').map(Number);
 
-let toEng = {
+const toEng = {
   '0': 'zero',
   '1': 'one',
   '2': 'two',

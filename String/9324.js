@@ -9,7 +9,7 @@ for(let i = 0; i < messages.length; i++){
     let isReal = true;
     for(let j = 0; j < message.length; j++){
         let code = message.charCodeAt(j) - "A".charCodeAt(0);
-        cnt[code]++;
+        cnt[code]++; 
         if(cnt[code] === 3){
             if(j === message.length - 1 || message[j] !== message[j + 1]){
                 isReal = false;
